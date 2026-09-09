@@ -120,10 +120,10 @@ From the repository root:
 
 ```bash
 cd notebooks
-uv run marimo edit quack_exploration.py --host 'data-hveeraboina'
+uv run marimo edit quack_exploration.py --host '<HOSTNAME>'
 ```
 
-If you are running this on a different machine, replace `data-hveeraboina` with the hostname or interface you want marimo to bind to.
+If you are running this on a different machine, replace `<HOSTNAME>` with the hostname or interface you want marimo to bind to.
 
 ## Inspect Parquet Files
 

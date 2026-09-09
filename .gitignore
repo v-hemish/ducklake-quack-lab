@@ -1,0 +1,6 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.pyc
+notebooks/__marimo__/

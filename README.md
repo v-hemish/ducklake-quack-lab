@@ -10,20 +10,9 @@ A local environment for exploring **DuckLake** with **DuckDB, Quack, PostgreSQL,
 - **MinIO**: S3-compatible storage for Parquet files
 - **Quack**: remote access to DuckDB
 
-```text
-Marimo Notebook
-      |
-Local DuckDB Client
-      |
-    Quack
-      |
-Remote DuckDB
-      |
-   DuckLake
-   /      \
-Postgres  MinIO
-Catalog   Parquet
-```
+## Architecture
+
+![DuckLake + Quack Local Lab Architecture](./quack-ducklake-arch.png)
 
 ## What the Notebook Covers
 
